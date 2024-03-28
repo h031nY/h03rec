@@ -41,7 +41,7 @@ echo -e "Subdomain discovery through Permutation, resolve and alternave DNS star
 cd massdns/
 cat ../$1-subdomains.txt | dnsgen - > a.txt
 cat a.txt | ./bin/massdns -r lists/resolvers.txt -t A -o S -s 800 -w ../$1-subdomains.txt
-cat ../$1-subdomains.txt | awk '{print $1}' | sed 's/.$//' >> ../$1-subdomains.txt
+cat ../$1-subdomains.txt | awk '{print $1}' | sed 's/.$//' > ../$1-subdomains.txt
 rm a.txt
 cd ..
 echo -e "Subdomain discovery through Permutation, resolve and alternave DNS finished by massdns & Dnsgen \n----------------------------------------"
