@@ -8,7 +8,7 @@ sudo apt install golang -y
 export GOROOT=/usr/lib/go >> ~/.bashrc
 export GOPATH=$HOME/go >> ~/.bashrc
 export PATH=$PATH:$GOROOT/bin:$GOPATH/bin >> ~/.bashrc
-sudo mkdir h031recon && cd h031recon
+
 
 sudo wget https://github.com/projectdiscovery/subfinder/releases/download/v2.6.5/subfinder_2.6.5_linux_amd64.zip
 sudo unzip subfinder_2.6.5_linux_amd64.zip 
