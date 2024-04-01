@@ -1,5 +1,5 @@
 # h03rec
-Usage
+#Usage
 
 #chmod +x h03recon.sh
 
