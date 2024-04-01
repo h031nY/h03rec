@@ -5,8 +5,8 @@ h03recon is created to assist bug hunters and red teamers in simplifying their w
 #./h03recon.sh example.com
 
 # Installation
-git clone https://github.com/h031nY/h03rec.git
-#chmod +x h03recon.sh install.sh
+git clone https://github.com/h031nY/h03rec.git  
+#chmod +x h03recon.sh install.sh  
 #./install.sh
 
 
